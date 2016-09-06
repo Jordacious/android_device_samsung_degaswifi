@@ -1,0 +1,36 @@
+# Graphics
+etc/gfx.cfg
+lib/egl/libEGL_MRVL.so
+lib/egl/libGLES_android.so
+lib/egl/libGLESv1_CM_MRVL.so
+lib/egl/libGLESv2_MRVL.so
+lib/libGLESv2SC.so
+
+## Needed by libEGL_MRVL.so
+lib/libGAL.so
+lib/libgputex.so
+lib/libgpucsc.so
+
+
+# HWComposer
+lib/hw/hwcomposer.mrvl.so
+lib/libHWComposerGC.so
+lib/libgcu.so
+
+
+# Gralloc
+lib/hw/gralloc.mrvl.so
+
+## Needed by gralloc.mvrl.so
+lib/libmvmem.so
+
+## Needed by libmvmem.so
+lib/libion.so
+
+
+# Stagefright
+lib/libstagefrighthw.so
+
+
+# Lights
+vendor/lib/hw/lights.mrvl.so
