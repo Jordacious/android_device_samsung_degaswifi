@@ -31,5 +31,9 @@ PRODUCT_PACKAGES += \
 	init.pxa1088.security.rc \
 	fstab.pxa1088
 
+# Screen Density
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := mdpi
+
 # Dalvik VM
 $(call inherit-product, frameworks/native/build/tablet-7in-hdpi-1024-dalvik-heap.mk)
