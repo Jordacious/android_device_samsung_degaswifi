@@ -66,4 +66,4 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_HAS_NO_MISC_PARTITION := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGB_565"
-TARGET_RECOVERY_FSTAB := device/samsung/degaswifi/rootdir/etc/recovery.fstab
+TARGET_RECOVERY_FSTAB := device/samsung/degaswifi/ramdisk/etc/recovery.fstab

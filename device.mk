@@ -19,3 +19,14 @@ LOCAL_PATH := $(call my-dir)
 # Boot Animation
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 800
+
+# Ramdisk
+PRODUCT_PACKAGES += \
+	ueventd.pxa1088.rc \
+	init.pxa1088.rc \
+	init.pxa1088.usb.rc \
+	init.pxa1088.tel.rc \
+	init.wifi.rc \
+	init.pxa1088.sensor.rc \
+	init.pxa1088.security.rc \
+	fstab.pxa1088
