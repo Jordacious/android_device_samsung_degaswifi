@@ -41,3 +41,6 @@ PRODUCT_AAPT_PREF_CONFIG := mdpi
 
 # Dalvik VM
 $(call inherit-product, frameworks/native/build/tablet-7in-hdpi-1024-dalvik-heap.mk)
+
+# Get Proprietary libraries and binaries
+$(call inherit-product, vendor/marvell/pxa1088/samsung/degaswifi/degaswifi-vendor.mk)
