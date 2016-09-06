@@ -30,3 +30,6 @@ PRODUCT_PACKAGES += \
 	init.pxa1088.sensor.rc \
 	init.pxa1088.security.rc \
 	fstab.pxa1088
+
+# Dalvik VM
+$(call inherit-product, frameworks/native/build/tablet-7in-hdpi-1024-dalvik-heap.mk)
