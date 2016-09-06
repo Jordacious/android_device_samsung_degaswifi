@@ -31,6 +31,10 @@ PRODUCT_PACKAGES += \
 	init.pxa1088.security.rc \
 	fstab.pxa1088
 
+# Net
+PRODUCT_PACKAGES += \
+    libnetcmdiface
+
 # Screen Density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := mdpi
