@@ -21,7 +21,7 @@ BOARD=marvell/pxa1088
 VENDOR=samsung
 DEVICE=degaswifi
 
-BASE=$CM_TOP/vendor/$BOARD/$VENDOR/$DEVICE/proprietary
+BASE=$CM_TOP/vendor/$BOARD/$VENDOR/$DEVICE/
 
 mkdir -p $BASE
 
