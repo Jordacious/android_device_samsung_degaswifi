@@ -72,6 +72,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_UMS_LUNFILE := "/sys/class/android_usb/f_mass_storage/lun0/file"
 
 # Recovery
+TARGET_NO_RECOVERY := true
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_USES_MMCUTILS := true
 BOARD_HAS_LARGE_FILESYSTEM := true
