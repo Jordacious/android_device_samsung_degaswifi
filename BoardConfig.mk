@@ -43,7 +43,9 @@ BOARD_USES_MARVELL_HWC_ENHANCEMENT := true
 COMMON_GLOBAL_CFLAGS += -DMARVELL_HWC_ENHANCEMENT
 
 # Boot
-TARGET_PREBUILT_KERNEL := device/samsung/degaswifi/kernel
+#TARGET_PREBUILT_KERNEL := device/samsung/degaswifi/kernel
+TARGET_KERNEL_SOURCE := kernel/marvell/pxa1088
+TARGET_KERNEL_CONFIG := pxa1088_degaswifi_eur_defconfig
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_MKBOOTIMG_ARGS := --dt device/samsung/degaswifi/dt.img --ramdisk_offset 0x01000000
 BOARD_KERNEL_PAGESIZE := 2048
