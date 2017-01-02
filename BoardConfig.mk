@@ -13,8 +13,6 @@
 # limitations under the License.
 #
 
-TARGET_BOOTLOADER_BOARD_NAME := PXA1088
-
 # Architecture
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
