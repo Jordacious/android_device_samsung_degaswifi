@@ -23,6 +23,9 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_SMP := true
 TARGET_BOARD_PLATFORM := mrvl
 
+# Board/SoC
+TARGET_SOC := pxa1088
+
 # Graphics
 BOARD_USES_MRVL_HARDWARE := true
 BOARD_HAVE_PIXEL_FORMAT_INFO := true
