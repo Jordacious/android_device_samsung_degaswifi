@@ -1,6 +1,5 @@
 # Graphics
 etc/gfx.cfg
-lib/egl/libEGL_MRVL.so
 lib/egl/libGLES_android.so
 lib/egl/libGLESv1_CM_MRVL.so
 lib/egl/libGLESv2_MRVL.so
