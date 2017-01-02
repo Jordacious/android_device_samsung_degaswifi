@@ -6,16 +6,13 @@ lib/egl/libGLESv2_MRVL.so
 lib/libGLESv2SC.so
 
 ## Needed by libEGL_MRVL.so
-lib/libGAL.so
 lib/libgputex.so
 lib/libgpucsc.so
-
 
 # HWComposer
 lib/hw/hwcomposer.mrvl.so
 lib/libHWComposerGC.so
 lib/libgcu.so
-
 
 # Gralloc
 lib/hw/gralloc.mrvl.so
